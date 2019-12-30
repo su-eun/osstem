@@ -1,0 +1,119 @@
+/* pc.css */
+.container {
+  /* outline: 1px solid red; */
+  max-width: 1200px; /* 가변 최대 1200px */
+  margin: 0 auto;
+}
+
+#main_header > .container{
+  position: relative;
+  font-family: 'Belleza', sans-serif; 
+}
+#main_header > .container > h1 {
+  position: relative;
+  left: 20px; top: 10px;
+}
+#main_header > .container #main_gnb {
+  position: absolute;
+  right: 250px; top: 30px;
+}
+#main_header > .container #main_gnb li {
+  display: inline-block;
+  margin-left: 1em; margin-right: 1em;
+}
+#main_header > .container #util {
+  position: absolute;
+  right: 0; top: 30px;
+}
+#main_header > .container #util li {
+  display: inline-block;
+  margin-left: 1em; margin-right: 1em;
+}
+#main_gnb, #util { 
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* gnb hover */
+#main_gnb a:hover, #util a:hover {
+  color: rgba(255,255,255, 0.7);
+} 
+
+/* 토글 메뉴, 장바구니 아이콘 비표시 */
+#toggle, #util i.fa-user { display: none;}
+
+/* 신제품 영역 */
+#new_product {
+
+}
+#new_product .product_list {
+  overflow: hidden;
+  /* outline: 1px solid red; */
+}
+#new_product .product_list > li {
+  /* width: 386.66px; */
+  width: 32.33%;
+  float: left;
+  /* margin-right: 20px; */
+  margin-right: 1.5%;
+}
+#new_product .product_list > li img {
+  width: 100%;
+}
+#new_product .product_list > li:last-child {
+  margin-right: 0;
+}
+#new_product .product_list > li {
+  display: block;
+}
+#new_product .product_list .title {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* news 섹션 */
+#news {}
+#news .container {
+  overflow: hidden;
+  /* outline: 1px solid red; */
+}
+#news article {
+  width: 49.25%;
+  float: left;
+  margin-right: 1.5%;
+  /* outline: 1px solid green; */
+}
+#news article:last-child {
+  margin-right: 0;
+}
+
+/*푸터*/
+#main_footer {
+  width: 100%;
+  text-align: left;
+  border-top:gray solid 1px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+#main_footer .container > h1 {
+  margin-bottom: 12px;
+}
+#main_footer .container > h1 img{
+  width: 200px;
+}
+#main_footer .container > p {
+  font-size: 12px;
+  line-height: 1.8em;
+  font-size: 14px
+}
+#main_footer .container strong{
+  color: black;
+  font-size: 15px;
+}
+#main_footer .container > .copyright {
+  font-size: 10px;
+  margin-top: 12px;
+  font-size: 12px
+}
