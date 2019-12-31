@@ -57,7 +57,7 @@
 
 #toggle {
   position: fixed;
-  left: 10px; top: 20px;
+  left: 20px; top: 20px;
   z-index: 10;
 }
 #toggle > i { 
@@ -102,31 +102,8 @@
 }
 
 /*푸터*/
-#main_footer {
-  width: 100%;
-  text-align: left;
-  border-top:gray solid 1px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-#main_footer .container > h1 {
-  margin-bottom: 12px;
-}
-#main_footer .container > h1 img{
-  width: 100px;
-}
-#main_footer .container > p {
-  font-size: 12px;
-  line-height: 1.8em;
-  font-size: 10px
-}
-#main_footer .container strong{
-  color: black;
-  font-size: 12px;
-}
-#main_footer .container > .copyright {
-  font-size: 8px;
-  margin-top: 12px;
-  font-size: 12px
+.footer_wrap{
+  font-size: xx-small;
+  /* vertical-align: bottom; */
+  word-break: keep-all;
 }

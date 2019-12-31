@@ -88,32 +88,3 @@
   margin-right: 0;
 }
 
-/*푸터*/
-#main_footer {
-  width: 100%;
-  text-align: left;
-  border-top:gray solid 1px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-
-}
-#main_footer .container > h1 {
-  margin-bottom: 12px;
-}
-#main_footer .container > h1 img{
-  width: 200px;
-}
-#main_footer .container > p {
-  font-size: 12px;
-  line-height: 1.8em;
-  font-size: 14px
-}
-#main_footer .container strong{
-  color: black;
-  font-size: 15px;
-}
-#main_footer .container > .copyright {
-  font-size: 10px;
-  margin-top: 12px;
-  font-size: 12px
-}

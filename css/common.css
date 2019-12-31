@@ -160,3 +160,38 @@ section {
   /* width: 100%; */
 }
 
+.footer_wrap{
+  width: 100%;
+  text-align: center;
+  border-top:gray solid 1px;
+}
+.main_footer{
+  height: 90px;
+}
+.main_footer > .footer_info{
+  margin: 40px;
+}
+.footer_wrap ul li{
+  display: inline-block;
+}
+
+/* .footer_wrap{
+  width: 100%;
+  text-align: left;
+  border-top:gray solid 1px;
+}
+.main_footer{
+  height: 200px;
+}
+.footer_logo img{
+  width: 200px;
+  float: left;
+  margin: 50px;
+}
+.main_footer > .footer_info{
+  float: left;
+  margin-top: 30px;
+}
+.footer_wrap ul li{
+  display: inline-block;
+} */

@@ -23,6 +23,8 @@ $(function(){
     maxSlides: 2,
     moveSlides: 1,
     slideWidth: 1920,
+    responsive:true,
+    pager: false,
   };
 
   // 최초 실행시 화면 크기별 슬라이더 칼럼수 설정
